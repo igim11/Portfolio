@@ -120,6 +120,7 @@ input, select, textarea {
 
 		a img {
 			border: 0;
+			object-fit: contain;
 		}
 
 	b, strong {
@@ -1630,6 +1631,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			object-fit: contain;
 		}
 
 		.image.fit {
@@ -1656,6 +1658,7 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
+				object-fit: contain;
 			}
 
 /* Button */
@@ -2118,6 +2121,7 @@ input, select, textarea {
 
 			#top .image img {
 				border-radius: 100%;
+				object-fit: contain;
 			}
 
 		#top h1 {
